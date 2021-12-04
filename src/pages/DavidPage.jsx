@@ -43,7 +43,7 @@ function HomePage() {
           una waiting list, estaré agradecido
         </p>
         <div className='divButton'>
-          <Link to='/david-riudor-goin'>
+          <Link to='/'>
             <button className='buttonHome'>Inicio</button>
           </Link>
         </div>
