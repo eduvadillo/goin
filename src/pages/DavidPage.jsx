@@ -1,4 +1,5 @@
 import "../App.css";
+import { Link } from "react-router-dom";
 import { BsLinkedin, BsArrowRight, BsArrowLeft } from "react-icons/bs";
 
 function HomePage() {
@@ -41,6 +42,11 @@ function HomePage() {
           Por último, cualquier cosa que crees que pueda ser útil para intentar replicar con éxito
           una waiting list, estaré agradecido
         </p>
+        <div className='divButton'>
+          <Link to='/david-riudor-goin'>
+            <button className='buttonHome'>Inicio</button>
+          </Link>
+        </div>
       </div>
       <div className='App2'></div>
       <div className='App2'></div>
