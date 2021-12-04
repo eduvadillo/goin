@@ -1,0 +1,233 @@
+.App {
+  background-image: url("pruebaDavid2.png");
+  height: 20vh;
+}
+
+.App2 {
+  background-image: url("pruebaDavid2.png");
+  height: 20vh;
+}
+
+.h1Goin {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.h2Goin {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.h3Goin {
+  font-size: 2rem;
+  z-index: 2000;
+  text-align: center;
+}
+
+.p1Goin {
+  font-size: 1.5rem;
+  text-align: center;
+  color: blueviolet;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.p2Goin {
+  z-index: 2000;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: bold;
+}
+
+.p3Goin {
+  z-index: 2000;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.borderAllText {
+  border: solid 5px blue;
+}
+
+.linkImg {
+  color: blue;
+}
+
+.arrowImg {
+  animation: infinite resplandorAnimation 3s;
+}
+
+.buttonHome {
+  border-radius: 5%;
+  background-color: blue;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+@keyframes resplandorAnimation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1900px) {
+  .App {
+    background-image: url("pruebaDavid3.png");
+    height: 32vh;
+  }
+
+  .App2 {
+    background-image: url("pruebaDavid3.png");
+    height: 20vh;
+  }
+
+  .h1Goin {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .h2Goin {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .h3Goin {
+    font-size: 1.5rem;
+    z-index: 2000;
+    text-align: center;
+  }
+
+  .p1Goin {
+    font-size: 1.3rem;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .p2Goin {
+    z-index: 2000;
+    font-size: 1.1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-weight: bold;
+    padding: 20px 20px;
+  }
+
+  .borderAllText {
+    border: solid 5px blue;
+  }
+  .linkImg {
+    color: blue;
+  }
+
+  .arrowImg {
+    animation: infinite resplandorAnimation 3s;
+  }
+
+  @keyframes resplandorAnimation {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .App {
+    background-image: url("pruebaDavid2.png");
+    height: 13vh;
+    background-size: cover;
+  }
+
+  .App2 {
+    background-image: url("pruebaDavid2.png");
+    height: 16vh;
+    background-size: cover;
+  }
+
+  .h1Goin {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .h2Goin {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .h3Goin {
+    font-size: 1.2rem;
+    z-index: 2000;
+    text-align: center;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .p1Goin {
+    font-size: 1.2rem;
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+  }
+
+  .p2Goin {
+    z-index: 2000;
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    font-weight: bold;
+    padding: 20px 20px;
+  }
+
+  .borderAllText {
+    border: solid 5px blue;
+  }
+  .linkImg {
+    color: blue;
+  }
+
+  .arrowImg {
+    animation: infinite resplandorAnimation 3s;
+  }
+
+  @keyframes resplandorAnimation {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+}
